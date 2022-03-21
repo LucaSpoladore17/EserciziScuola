@@ -1,0 +1,6 @@
+Le differenze principali dei cicli While e Do While sono:
+I cicli While eseguono le istruzione al loro interno in base a una condizione 
+e le istruzioni potrebbero non essere eseguite mai.
+
+I cicli Do While eseguono le istruzioni al loro interno come i cicli While ma
+le istruzioni al loro interno verranno eseguite sempre almeno una volta.
