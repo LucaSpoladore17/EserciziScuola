@@ -1,29 +1,32 @@
 #include <stdio.h>
 int main()
 {
-    printf("Inserisci 10 numeri: ");
-    int indice=10;
+    printf("Inserisci 10 numeri: \n");
+    int indice = 10;
     int v[indice];
-    int tmp=0;
-    for(int i =0;i<indice;i++)
+    int tmp = 0;
+    for (int i = 0; i < indice; i++)
     {
-        scanf("%d",&tmp);
-        v[i]=tmp;
+        printf("Numero %d\n", i + 1);
+        scanf("%d", &tmp);
+        v[i] = tmp;
     }
     printf("\n");
-    printf("numeri pari: ");
-    for (int i= 0; i<indice;i++)
+    printf("numeri pari: \n");
+    for (int i = 0; i < indice; i++)
     {
-        if(v[i]%2==0){
-            printf("%d\n",v[i]);
+        if (v[i] % 2 == 0)
+        {
+            printf("%d\n", v[i]);
         }
     }
-    printf("Numeri dispari: ");
-    for (int i= 0; i<indice;i++)
+    printf("Numeri dispari: \n");
+    for (int i = 0; i < indice; i++)
     {
-        if(v[i]%2!=0){
-            printf("%d\n",v[i]);
+        if (v[i] % 2 != 0)
+        {
+            printf("%d\n", v[i]);
         }
     }
-    return 0;   
+    return 0;
 }
